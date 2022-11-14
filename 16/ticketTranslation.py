@@ -39,10 +39,10 @@ print("==> PART ONE <==")
 print(partOne(sys.argv[1]))
 print()
 
-def partTwo(inpu) :
 '''
 It work but way to much cluttered
 '''
+def partTwo(inpu) :
     with open(inpu,'r') as inp:
         c=0
         field=[]
